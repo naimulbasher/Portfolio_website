@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naimul Basher</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8311d05b17.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="shortcut icon" href="IMG/blogging.png" type="image/x-icon">
+</head>
+<body>
+<!-----------Home/Header Section---------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="IMG/logo2.png"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#experiences">EXPERIENCES</a></li>
+                    <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi, I'm Naimul<br><span>Basher</span></h1>
+            </div>
+        </div>
+    </div>
+<!-----------about Section---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG/user2.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>Hello There. Welcome here. Firstly, Thanks for visiting my portfolio.
+                        I am a highly motivated and dedicated individual with a passion for learning and personal development. I have a strong work ethic and am committed to achieving my goals. I am a quick learner and enjoy taking on new challenges. In my free time, I enjoy reading, exercising, and spending time with friends and family. I am also an avid traveler and am always looking for new adventures and experiences.
+                        I would love to take your feedback and try to improve myself and also talk with you about my uniqueness. Thank you!
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Programming Language</p>
+                        <p class="tab-links" onclick="opentab('programming-contest')">Programming Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>C++</b></span><br>Proficiency: Beginner<br>Trying to improve.</li>
+                            <li><span><b>C</b></span><br>Proficiency: Intermediate<br>Solve Problem's in C.</li>
+                            <li><span><b>Python</b></span><br>Proficiency: Beginner.</li>
+                            <li><span><b>Java</b></span><br>Proficiency: Beginner.</li>
+                            <li><span><b>Html, CSS, Java Script</b></span><br>Proficiency: Beginner.</li>
+                            <li><span><b>My SQL</b></span><br>Proficiency: Beginner.</li>
+
+                    </div>
+                    <div class="tab-contents" id="programming-contest">
+                        <ul>
+                            <li><span><b>Data structures and algorithms</b></span><br>Proficiency: Beginner</li>
+                            <li><span><b>Dataase and SQL</b></span><br>Proficiency: Intermediate</li>
+                            <li><span><b>Object-oriented programming</b></span><br>Proficiency: Beginner</li>
+                            <li><span><b>Integrated development environments(IDEs)</b></span><br>Proficiency: Intermediate</li>
+                            <li><span><b>Cloud computing</b></span><br>Proficiency: Beginner</li>
+                            <li><span><b>Web development</b></span><br>Proficiency: Intermediate</li>
+                            <li><span><b>containers</b></span><br>Proficiency: Beginner</li>
+                            <li><span><b>Text editors</b></span><br>Proficiency: Intermediate</li>
+                            <li><span><b>Git version control</b></span><br>Proficiency: Intermediate</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>BSC in CSE</b></span><br>University of Asia Pacific.<br>2020-Running</li>
+                            <li><span><b>HSC</b></span><br>Gafargaon Govt. College.<br>2019</li>
+                            <li><span><b>SSC</b></span><br>Gafargaon Islamia Govt. High School.<br>2017</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------experience Section---------->
+<div id="experiences">
+    <div class="container">
+        <h1 class="sub-title">My Experiences</h1>
+        <div class="experiences-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Interested</h2>
+                <h3>Programming contest</h3>
+                <a href="https://www.facebook.com/groups/893562187417763">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Interested</h2>
+                <h3>Robotics</h3>
+                <a href="https://www.facebook.com/roboticsUAP.cse">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-file-code"></i>
+                <h2>Full-Stack</h2>
+                <h3>Projects over full-stack website</h3>
+                <a href="https://github.com/naimulbasher">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography</h2>
+                <h3>beyond the nature & Street life</h3>
+                <h4>Photo website pending on my github</h4>
+                <a href="https://github.com/naimulbasher">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------Achievements---------->
+<div>
+    <div id="achievements">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="achievement-list">
+                <div class="project">
+                    <img src="IMG/none.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>nothing to see loading......</b></p>
+                        <br><p>pending</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/none.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>Comming soon</b></p>
+                        <br><p>Focussing life goal</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/none.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>error404</b></p>
+                        <br><p>Pending</p>
+                    </div>
+                </div>
+            </div>
+            <div class="achievement-list">
+                <div class="achievement">
+                    <img src="IMG/none.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>Pending</b></p>
+                        <br><p>Loading...</p>
+                        
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/none.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>Improving skill</b></p>
+                        <br><p>Loading...</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/none.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>Nothing to see..</b></p>
+                        <br><p>To be continued...</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+</div>
+<!-- -----------Project--------- -->
+<div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="IMG/project1.0.jpeg" height="400">
+                    <br>
+                    <div class="layer">
+                        <h3>Blog website</h3>
+                        <p>This one is my first project. Blogging website as it is..</p>
+                        <a href="https://github.com/naimulbasher"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/Project3.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <h3>Banking Management System</h3>
+                        <p>This project is all about the Banking management system. A very simple and user-friendly interface with basic needed operations for the bank is present here. We implemented this with JAVA.</p>
+                        <a href="https://github.com/naimulbasher"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/project4.0.jpeg" height="400">
+                    <br>
+                    <div class="layer">
+                        <h3>Stotionary shop management system</h3>
+                        <p>This project is about Stotionary shop management Systems. Part of my Database Course. We implemented this project with MY SQL</p>
+                        <a href="https://github.com/naimulbasher"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+</div>
+<!-- ---------Contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> naimulbasher122@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +8801778605244</p>
+                <div class="social-icons">           
+                    <a href="https://codeforces.com/profile/naimul_360"><iconify-icon icon="simple-icons:codeforces"></iconify-icon></a>
+                    <a href="https://leetcode.com/naimulbasher/"><iconify-icon icon="simple-icons:leetcode"></iconify-icon></a>
+                    <a href="https://github.com/naimulbasher"><i class="fa-brands fa-github"></i></a>
+                    
+                    <br>
+                    <br>
+                    <a href="https://www.linkedin.com/in/naimul-basher/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/niamul.basher.9/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/naimulbasher122"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="IMG/CV-2.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © naimul. Take Love. <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu1=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu1.style.right=0;
+        }
+        function closemenu(){
+            sidemenu1.style.right="-200px";
+        }
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyeV71h1K7kKb_Wpp7fKddTKOiSiL_RxAf52b7NWUww3n1Hh2wsIeIdCx6TFXq6PrgP/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Sent Successfully."
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+              form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
